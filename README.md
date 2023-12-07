@@ -2,6 +2,8 @@
 
 This is just a simple toolbox wrapping some *cloud* volume and *CAVE* client funcitons for programatically getting data from flywire. There are no doubt some (probably better) alternatives, which I will link to below. The idea here is for quick and dirty work with flywire, to handle some functions which may previously have taken multiple steps.
 
+This is also a self indulgent project to help my own understanding of these tools. [FAFBseg](https://github.com/navis-org/fafbseg-py/tree/master) from Philipp Schlegel is a bunch more complete, better written and more flexible I would assume - so I would encourage anyone to look seriously at this. A lot of what is going on here is reverse engineered from FAFBseg for my own uses. Or at least I assume it will be as I develope this further.
+
 ## Requierments
 
 `cloudvolume` is required for pulling EM data from flywire - the segmentation, meshes, skeletons, and image layer. See [here](https://github.com/seung-lab/cloud-volume)
